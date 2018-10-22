@@ -1,0 +1,79 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 2500px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #C0392B !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #C0392B !important;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+.card {
+  background-color: rgba(205, 97, 85, 0.4);
+}
+
+.md-form label {
+  color: #ffffff;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+.row {
+  margin-top: 65px;
+}
+
+.formLogin {
+   float:left;
+   padding:2px;
+   cursor:pointer;
+   display:block;
+   width:290px;
+   margin:auto;
+   text-align:left;
+}
+
+.ancho {
+  border-top: 3px solid #fff;
+  width: 350px;
+}
+
+.md-form {
+  color: #ffa000;
+}

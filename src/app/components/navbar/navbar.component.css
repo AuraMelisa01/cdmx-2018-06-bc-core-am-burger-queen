@@ -1,0 +1,34 @@
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 2500px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #C0392B !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 2500px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #C0392B !important;
+  }
+}
+
+
+
+
