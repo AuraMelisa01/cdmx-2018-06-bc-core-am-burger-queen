@@ -263,9 +263,6 @@ If the Work includes a "NOTICE" text file as part of its distribution, then any 
 END OF TERMS AND CONDITIONS
 
 
-angularfire2/auth
-MIT
-
 @angular/common
 MIT
 
@@ -315,6 +312,9 @@ Apache-2.0
 
 @firebase/database
 Apache-2.0
+
+angularfire2/auth
+MIT
 
 @angular/platform-browser
 MIT
