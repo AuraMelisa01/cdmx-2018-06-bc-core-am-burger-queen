@@ -20,7 +20,6 @@ export class PasswordResetComponent implements OnInit {
   }
 
 
-
   resetPassword(email: string) {
     this.auth.resetPassword(email);
     this.router.navigate(['/']);

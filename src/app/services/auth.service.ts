@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { AngularFireAuth } from 'angularfire2/auth';
+// import { AngularFireAuth } from 'angularfire2/auth';
+import { AngularFireAuth } from "@angular/fire/auth";
 import 'rxjs/add/operator/map';
 import * as firebase from 'firebase';
 
@@ -10,6 +11,10 @@ import * as firebase from 'firebase';
 export class AuthService {
 
   constructor(public afAuth: AngularFireAuth) { }
+
+  // getAuth() {
+  //   return this.afAuth.auth;
+  // }
 
   loginEmail(email: string, pass: string) {
     return new Promise((resolve, reject) => {
@@ -43,13 +48,16 @@ export class AuthService {
   //     .catch((error) => console.log(error))
   // }
 
+
   resetPassword(email: string) {
-    return new Promise((resolve, reject) => {
-      this.afAuth.auth.sendPasswordResetEmail(email)
-      .then(() => console.log("email sent"))
-      .catch((error) => console.log(error))
-    });
+    return this.afAuth.auth.sendPasswordResetEmail(email)
+    .then(() => {
+      alert('Hemos enviado un correo electrónico para restablecer tu contraseña');
+    })
+    .catch(err => console.log(err));
   }
 
 
 }
+
+
