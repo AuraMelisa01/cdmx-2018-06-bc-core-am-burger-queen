@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { AngularFireAuth } from 'angularfire2/auth';
 import 'rxjs/add/operator/map';
+import * as firebase from 'firebase';
 
 
 @Injectable({
@@ -33,6 +34,21 @@ export class AuthService {
 
   logouth() {
     return this.afAuth.auth.signOut();
+  }
+
+  // resetPassword(email: string) {
+  //   var auth = firebase.auth();
+  //   return auth.sendPasswordResetEmail(email)
+  //     .then(() => console.log("email sent"))
+  //     .catch((error) => console.log(error))
+  // }
+
+  resetPassword(email: string) {
+    return new Promise((resolve, reject) => {
+      this.afAuth.auth.sendPasswordResetEmail(email)
+      .then(() => console.log("email sent"))
+      .catch((error) => console.log(error))
+    });
   }
 
 

@@ -22,7 +22,6 @@ export class LoginComponent implements OnInit {
     public authService: AuthService,
     public router: Router,
   ) {
-    title.setTitle('BURGER QUEEN');
     this.buildForm();
   }
 
