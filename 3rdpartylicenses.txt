@@ -541,6 +541,9 @@ MIT
 
 firebase/database
 
+@angular/service-worker
+MIT
+
 @angular/fire
 MIT
 
