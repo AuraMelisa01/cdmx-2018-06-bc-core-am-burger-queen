@@ -301,16 +301,16 @@ Apache-2.0
 @firebase/util
 Apache-2.0
 
-@firebase/firestore
+@firebase/database
 Apache-2.0
 
 @firebase/logger
 Apache-2.0
 
-@firebase/webchannel-wrapper
+@firebase/firestore
 Apache-2.0
 
-@firebase/database
+@firebase/webchannel-wrapper
 Apache-2.0
 
 angularfire2/auth
@@ -536,13 +536,13 @@ MIT
 
 firebase/firestore
 
+@angular/service-worker
+MIT
+
 @angular/fire/database
 MIT
 
 firebase/database
-
-@angular/service-worker
-MIT
 
 @angular/fire
 MIT
@@ -762,6 +762,9 @@ firebase/auth
 MIT
 
 @angular/compiler
+MIT
+
+angularfire2/database
 MIT
 
 zone.js
