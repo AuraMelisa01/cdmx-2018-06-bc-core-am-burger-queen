@@ -1,10 +1,49 @@
 <div class="container">
-<p>Pedidos de los clientes</p>
-<ul class="list-group">
-  <li class="list-group-item">Cras justo odio</li>
-  <li class="list-group-item">Dapibus ac facilisis in</li>
-  <li class="list-group-item">Morbi leo risus</li>
-  <li class="list-group-item">Porta ac consectetur ac</li>
-  <li class="list-group-item">Vestibulum at eros</li>
-</ul>
+  <p class="format">"Orden del Cliente"</p>
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <button type="submit" class="btn btn-warning px-3" (click)="desayuno()">
+        <i class="fa fa-coffee" aria-hidden="true"></i> DESAYUNO</button>
+    </div>
+
+    <div class="col-md-6 text-center">
+      <button type="submit" class="btn btn-warning px-3" (click)="comida()">
+        <i class="fa fa-cutlery" aria-hidden="true"></i> COMIDA / CENA</button>
+    </div>
+
+  </div>
+  <hr class="hr-red mb-3 mt-4 ancho">
+
+  <div class="row">
+    <div class="col-md-6 text-center ">
+      <div class="card mt-4">
+        <div class="card-body">
+          <button type="button" class="btn btn-elegant" *ngFor="let menu of menuListDesayuno">
+            <div class="titleCard">
+              <p>{{menu.desayuno}}</p>
+            </div>
+            <div class="precioCard">
+              <p> $ {{menu.precio}}.00</p>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 text-center">
+      <div class="card mt-4">
+        <div class="card-body">
+          <button type="button" class="btn btn-elegant" *ngFor="let menu of menuListComida">
+            <div class="titleCard">
+              <p>{{menu.desayuno}}</p>
+            </div>
+            <div class="precioCard">
+              <p> $ {{menu.precio}}.00</p>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>

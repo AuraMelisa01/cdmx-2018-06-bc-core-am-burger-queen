@@ -16,6 +16,8 @@ import { RegisterComponent } from './components/register/register.component';
 import { PedidosComponent } from './components/pedidos/pedidos.component';
 import { PasswordResetComponent } from './components/password-reset/password-reset.component';
 import { RegisterMenuComponent } from './components/register-menu/register-menu.component';
+import { DesayunoComponent } from './components/desayuno/desayuno.component';
+import { ComidaComponent } from './components/comida/comida.component';
 
 //FIREBASE
 import { AngularFireModule } from 'angularfire2';
@@ -32,8 +34,7 @@ import { MenuService } from './services/menu.service';
 
 import { AuthGuard } from './security-guards/auth.guard';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { DesayunoComponent } from './components/desayuno/desayuno.component';
-import { ComidaComponent } from './components/comida/comida.component';
+
 
 
 @NgModule({

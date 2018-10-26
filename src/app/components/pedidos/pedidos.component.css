@@ -1,4 +1,35 @@
 p {
+  text-align: center;
+}
+
+.ancho {
+  border-top: 2px solid #C0392B;
+  width: 100%;
+}
+
+.size{
+  font-size: 12pxpx;
+}
+
+.format{
+  font-size: 30px;
+  color: #C0392B;
   margin-top: 100px;
+}
+
+.posicion{
+	position: relative;
+	background-color: white;
+  float: left;
+  margin-left: 15px;
+}
+
+.titleCard {
+  font-size: 25px;
+  color:whitesmoke;
+}
+
+.precioCard {
   font-size: 20px;
+  color:whitesmoke;
 }

@@ -7,6 +7,7 @@ import { PedidosComponent } from './components/pedidos/pedidos.component';
 import { PasswordResetComponent } from './components/password-reset/password-reset.component';
 import { RegisterMenuComponent } from './components/register-menu/register-menu.component';
 
+
 import { AuthGuard } from './security-guards/auth.guard';
 
 const routes: Routes = [
