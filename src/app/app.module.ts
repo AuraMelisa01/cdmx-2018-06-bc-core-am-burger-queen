@@ -13,7 +13,9 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+import { PedidosComponent } from './components/pedidos/pedidos.component';
 import { PasswordResetComponent } from './components/password-reset/password-reset.component';
+import { RegisterMenuComponent } from './components/register-menu/register-menu.component';
 
 //FIREBASE
 import { AngularFireModule } from 'angularfire2';
@@ -26,9 +28,13 @@ import { environment} from '../environments/environment';
 
 //SERVICIOS
 import { AuthService } from './services/auth.service';
-import { PedidosComponent } from './components/pedidos/pedidos.component';
+import { MenuService } from './services/menu.service';
+
 import { AuthGuard } from './security-guards/auth.guard';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { DesayunoComponent } from './components/desayuno/desayuno.component';
+import { ComidaComponent } from './components/comida/comida.component';
+
 
 @NgModule({
   declarations: [
@@ -37,7 +43,10 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     LoginComponent,
     RegisterComponent,
     PedidosComponent,
-    PasswordResetComponent
+    PasswordResetComponent,
+    RegisterMenuComponent,
+    DesayunoComponent,
+    ComidaComponent
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebaseConfig),
@@ -50,7 +59,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     ReactiveFormsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
-  providers: [AuthService, AuthGuard],
+  providers: [AuthService, AuthGuard, MenuService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

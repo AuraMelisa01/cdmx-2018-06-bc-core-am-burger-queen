@@ -18,6 +18,12 @@
         <li class="nav-item">
           <a class="nav-link" href="#" routerLink="/register" *ngIf="!isLogin">Registrar</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="/register-menu" *ngIf="isLogin">Registro-Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" routerLink="/pedidos" *ngIf="isLogin">Pedidos-Menu</a>
+        </li>
       </ul>
       <div class="navbar-nav">
         <div class="nav-item" *ngIf="isLogin">

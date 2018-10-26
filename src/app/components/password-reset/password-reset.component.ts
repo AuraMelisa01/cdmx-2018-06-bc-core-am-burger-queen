@@ -10,6 +10,7 @@ import { AuthService } from '../../services/auth.service';
 })
 export class PasswordResetComponent implements OnInit {
 
+  public email:string;
 
   constructor(
     public auth: AuthService,

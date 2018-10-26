@@ -1,0 +1,40 @@
+<form #menuForm="ngForm" (ngSubmit)="onSubmit(menuForm)">
+  <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="menuService.selectedMenuDesayuno.$key">
+
+  <div class="form-group col-md-12 mt-3">
+    <input type="text" class="form-control" name="itemDesayuno" #itemDesayuno="ngModel" [(ngModel)]="menuService.selectedMenuDesayuno.itemDesayuno"
+      placeholder="Agrega el desayuno">
+  </div>
+
+  <div class="form-group col-md-12 mt-3">
+    <input type="text" class="form-control" name="itemPrecioDesayuno" #itemPrecioDesayuno="ngModel" [(ngModel)]="menuService.selectedMenuDesayuno.itemPrecioDesayuno"
+      placeholder="Agrega el precio">
+  </div>
+
+  <div class="form-group">
+    <button type="submit" class="btn btn-warning px-3">
+      <i class="fa fa-plus" aria-hidden="true"></i> Agregar</button>
+
+    <button type="reset" class="btn btn-outline-warning waves-effect" (click)="resetForm(menuForm)">
+      <i class="fas fa-sync-alt"></i>Limpiar
+    </button>
+  </div>
+</form>
+
+<ul class="list-group mt-5">
+  <li class="list-group-item list-group-item-action d-flex justify-content-between align-item-center" *ngFor="let menu of menuListDesayuno">
+    <div>
+      {{menu.desayuno}}
+    </div>
+    <div>
+      <p> $ {{menu.precio}}.00</p>
+    </div>
+
+    <span class="text-danger pointer" (click)="updateDesayuno(menu)">
+      <i class="fa fa-pencil"></i>
+    </span>
+    <span class="text-danger pointer" (click)="deleteDesayuno(menu.$key)">
+      <i class="fa fa-trash"></i>
+    </span>
+  </li>
+</ul>
