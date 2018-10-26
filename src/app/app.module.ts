@@ -35,6 +35,10 @@ import { MenuService } from './services/menu.service';
 import { AuthGuard } from './security-guards/auth.guard';
 import { ServiceWorkerModule } from '@angular/service-worker';
 
+//ANIMACION
+import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
+
 
 
 @NgModule({
@@ -58,6 +62,8 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    BrowserAnimationsModule,
+    ToastrModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [AuthService, AuthGuard, MenuService],

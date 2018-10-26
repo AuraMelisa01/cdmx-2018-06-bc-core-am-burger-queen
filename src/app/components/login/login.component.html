@@ -17,14 +17,14 @@
                 <!--Header-->
                 <div class="text-center">
                   <h3 class="white-text">
-                    <p>* Burger Queen *</p>
+                    <p class="title">* Burger Queen *</p>
                   </h3>
                 </div>
                 <!--Body-->
                 <form (submit)="onSubmitLogin()" [formGroup]="loginForm" novalidate>
                   <div class="md-form">
                     <input formControlName="email" type="email" id="email" class="white-text form-control" [(ngModel)]="email">
-                    <label for="form2" class="active">Correo:</label>
+                    <label for="form2">Correo:</label>
                   </div>
                   <div class="md-form">
                     <input formControlName="password" type="password" id="password" class="white-text form-control" [(ngModel)]="password">
