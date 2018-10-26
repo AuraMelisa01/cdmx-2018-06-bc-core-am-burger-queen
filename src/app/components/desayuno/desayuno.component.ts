@@ -12,7 +12,7 @@ export class DesayunoComponent implements OnInit {
 
   menuListDesayuno: Menu[];
 
-  constructor(private menuService: MenuService) { }
+  constructor(public menuService: MenuService) { }
 
 
   ngOnInit() {
