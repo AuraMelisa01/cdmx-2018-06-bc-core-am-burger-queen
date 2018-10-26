@@ -13,7 +13,7 @@ export class MenuService {
   menuListComida: AngularFireList<any>;
   selectedMenuComida: Menu = new Menu();
 
-  constructor(private firebasedb: AngularFireDatabase) { }
+  constructor(public firebasedb: AngularFireDatabase) { }
 
   // FUNCIONES PARA DESAYUNO
 
