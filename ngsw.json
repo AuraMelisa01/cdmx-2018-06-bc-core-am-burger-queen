@@ -9,7 +9,7 @@
       "urls": [
         "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/favicon.ico",
         "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/index.html",
-        "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/main.b52cf7fa80d96e7cadda.js",
+        "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/main.ae7aff257321345f80a4.js",
         "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/polyfills.c6871e56cb80756a5498.js",
         "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/runtime.ec2944dd8b20ec099bf3.js",
         "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/styles.c81f4ad660b5cbf4198a.css"
@@ -21,6 +21,8 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/README.1.md",
+        "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/burger.png",
         "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-128x128.png",
         "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-144x144.png",
         "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-152x152.png",
@@ -35,6 +37,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/README.1.md": "4b936e8581dba6c77d736162f7edadd7090dde81",
+    "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/burger.png": "2df134c77bb063c27d625bccd092a1a540e929cb",
     "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -44,8 +48,8 @@
     "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/index.html": "55308d1222d6bff05dcd7de721416d7e3b306594",
-    "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/main.b52cf7fa80d96e7cadda.js": "9dfd43ef08052697be1db7dd70dd2e359c1987be",
+    "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/index.html": "7ce3e0f64d3ad0d32a416c093d3f1d0ce2a9f88a",
+    "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/main.ae7aff257321345f80a4.js": "1e6ef49c30cf431a4c4f715674d5be9ab10e0159",
     "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/polyfills.c6871e56cb80756a5498.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
     "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "https://AuraMelisa01.github.io/cdmx-2018-06-bc-core-am-burger-queen/styles.c81f4ad660b5cbf4198a.css": "017697d45b8e3d5b0313cea12664033d0973374b"
